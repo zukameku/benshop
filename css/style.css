@@ -98,7 +98,7 @@ html {
     width: 100%;
     height: 50vh;
     min-height: 350px;
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url("logo/mountain.png");
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url('logo/mountain.png');
     background-size: cover;
     display: flex;
     flex-direction: column;
