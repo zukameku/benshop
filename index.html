@@ -82,7 +82,19 @@
 
     <p>BenDevTeam &copy; 2021</p>
   </div>
-
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript">
+  $("#search-icon").click(function() {
+   $(".nav").toggleClass("search");
+   $(".nav").toggleClass("no-search");
+   $(".search-input").toggleClass("search-active");
+ });
+ 
+ $('.menu-toggle').click(function(){
+    $(".nav").toggleClass("mobile-nav");
+    $(this).toggleClass("is-active");
+ });
+  </script>
 </footer>
 </body>
 </html>
